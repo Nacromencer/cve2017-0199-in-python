@@ -1,0 +1,8 @@
+/python
+# Quick and dirty demonstration of CVE-2014-0160 by Jared Stafford (jspenguin@jspenguin.org)
+# The author disclaims copyright to this source code.
+# Mass scanning mod using CIDR notation added by Hacker Fantastic.
+import sys
+import struct
+import socket
+import time
